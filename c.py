@@ -1,0 +1,10 @@
+# exercicios 05
+a = input('Digite algo:')
+print('o tipo orimitivo desse valor é ', type(a))
+print('So tem espaços?', a.isspace())
+print('e um numero ?', a.isnumeric())
+print('é alfabetico?', a.isalpha())
+print('é alfanumerico?', a.isalnum())
+print('esta em maiúsculas?', a.isupper())
+print('esta em minusculas?', a.islower())
+print('esta capitalizada?', a.istitle())
